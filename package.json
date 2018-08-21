@@ -1,0 +1,21 @@
+{
+    "name": "vocabulary-trainer",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node ./src/index.js",
+        "test": "./node_modules/mocha/bin/_mocha"
+    },
+    "keywords": [],
+    "author": "Hendrik Hermann Preuß",
+    "license": "MIT",
+    "devDependencies": {
+        "chai": "4.1.1",
+        "chai-http": "^4.0.0",
+        "mocha": "3.5.0"
+    },
+    "dependencies": {
+        "koa": "^2.5.2",
+        "koa-docs": "^2.1.0"
+    }
+}
